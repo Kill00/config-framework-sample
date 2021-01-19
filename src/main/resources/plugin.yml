@@ -4,3 +4,8 @@ main: com.teamvery.configframeworksample.ConfigFrameworkSample
 api-version: 1.16
 authors: [ TeamVery ]
 website: https://github.com/TeamVery/config-framework-sample
+
+commands:
+  reload:
+    permission: op
+    description: Reload Configs

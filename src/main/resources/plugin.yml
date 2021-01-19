@@ -1,0 +1,7 @@
+name: Config-Framework-Sample
+version: @version@
+main: com.teamvery.configframeworksample.ConfigFrameworkSample
+api-version: 1.16
+depend: [ Config-Framework ]
+authors: [ TeamVery ]
+website: https://github.com/TeamVery/config-framework-sample

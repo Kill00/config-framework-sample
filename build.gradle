@@ -1,0 +1,53 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+plugins {
+    id 'java'
+}
+
+group = 'com.teamvery'
+version = '1.0.0-SNAPSHOT'
+
+sourceCompatibility = '11.0'
+targetCompatibility = '11.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'papermc-repo'
+        url = 'https://papermc.io/repo/repository/maven-public/'
+    }
+    maven {
+        name = 'sonatype'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+    maven {
+        name = 'jitpack'
+        url = 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+    
+    implementation 'com.github.TeamVery:Config-Framework:1.0.1B'
+}
+
+tasks {
+    compileJava {
+        options.encoding = "UTF-8"
+    }
+
+    javadoc {
+        options.encoding = "UTF-8"
+    }
+
+    processResources {
+        from(sourceSets.main.resources.srcDirs) {
+            filter ReplaceTokens, tokens: [version: version]
+        }
+    }
+}
+
+clean {
+    file('build/resources').deleteDir()
+}

@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.teamvery.configframeworksample'
-version = '1.0.0B'
+version = '1.0.0C'
 
 sourceCompatibility = '11.0'
 targetCompatibility = '11.0'

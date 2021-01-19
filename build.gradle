@@ -28,8 +28,8 @@ repositories {
 
 dependencies {
     compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
-    
-    implementation 'com.github.TeamVery:Config-Framework:1.0.1B'
+
+    implementation 'com.github.TeamVery:Config-Framework:1.0.2A'
 }
 
 tasks {

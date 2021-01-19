@@ -1,6 +1,6 @@
 package com.teamvery.configframeworksample;
 
-import com.teamvery.configframework.Conf;
+import com.teamvery.configframework.cfg;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ConfigFrameworkSample extends JavaPlugin {
@@ -10,13 +10,13 @@ public final class ConfigFrameworkSample extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveDefaultConfig();
 
-        Conf.makeData("Config-Framework-Sample", "config.yml");
-        Conf.makeData("Config-Framework-Sample", "work.yml");
+        cfg.makeData("Config-Framework-Sample", "config.yml");
+        cfg.makeData("Config-Framework-Sample", "work.yml");
 
-        if (Conf.get("Config-Framework-Sample", "config.yml").getBoolean("활성화")) {
+        if (cfg.get("Config-Framework-Sample", "config.yml").getBoolean("활성화")) {
             getLogger().info("Config Framework Sample Plugin WORK!");
         }
-        if (!Conf.get("Config-Framework-Sample", "work.yml").getBoolean("니")) {
+        if (!cfg.get("Config-Framework-Sample", "work.yml").getBoolean("니")) {
             getLogger().info("NiceWork!");
         }
     }

@@ -4,5 +4,5 @@
 ---
 > * ### LICENSE
 > 1. Config-Framework - `MIT License`
->   * https://github.com/TeamVery/Config-Framework
->   * https://github.com/TeamVery/Config-Framework/blob/master/LICENSE
+>    * https://github.com/TeamVery/Config-Framework
+>    * https://github.com/TeamVery/Config-Framework/blob/master/LICENSE

@@ -32,6 +32,8 @@ dependencies {
     compileOnly 'org.jetbrains:annotations:19.0.0'
 
     implementation 'com.github.TeamVery:Config-Framework:1.0.2A'
+
+    // compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 tasks {

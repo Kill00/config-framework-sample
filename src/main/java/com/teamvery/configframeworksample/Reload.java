@@ -23,7 +23,7 @@ public class Reload implements CommandExecutor {
             player.sendMessage("§a리로드가 완료되었습니다!");
         }
 
-        if (cfg.get(plugin_name, ConfigFrameworkSample.conf).getBoolean("활성화")) {
+        if (cfg.get(plugin_name, conf).getBoolean("활성화")) {
             System.out.println(ChatColor.GREEN + "Config Framework Sample Plugin WORK!");
         } else {
             System.out.println(ChatColor.RED + "Config Framework Sample Plugin NOT!!! WORK!");

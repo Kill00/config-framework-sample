@@ -28,7 +28,7 @@ public class Reload implements CommandExecutor {
         } else {
             System.out.println(ChatColor.RED + "Config Framework Sample Plugin NOT!!! WORK!");
         }
-        if (!cfg.get(plugin_name, work).getBoolean("니")) {
+        if (!cfg.get(plugin_name, work).getBoolean("테스트")) {
             System.out.println(ChatColor.RED + "Nice NOT!! Work!");
         } else {
             System.out.println(ChatColor.GREEN + "NiceWork!");

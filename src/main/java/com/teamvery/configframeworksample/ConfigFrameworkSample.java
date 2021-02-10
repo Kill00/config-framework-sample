@@ -27,7 +27,7 @@ public final class ConfigFrameworkSample extends JavaPlugin {
         } else {
             getLogger().info(ChatColor.RED + "Config Framework Sample Plugin NOT!!! WORK!");
         }
-        if (!cfg.get(plugin_name, work).getBoolean("니")) {
+        if (!cfg.get(plugin_name, work).getBoolean("테스트")) {
             getLogger().info(ChatColor.RED + "Nice NOT!! Work!");
         } else {
             getLogger().info(ChatColor.GREEN + "NiceWork!");

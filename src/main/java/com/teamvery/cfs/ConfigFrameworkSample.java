@@ -1,4 +1,4 @@
-package com.teamvery.configframeworksample;
+package com.teamvery.cfs;
 
 import com.teamvery.configframework.cfg;
 import net.md_5.bungee.api.ChatColor;

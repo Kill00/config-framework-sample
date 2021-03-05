@@ -54,7 +54,7 @@ tasks {
             archiveBaseName.set("ConfigFramework-Sample-Plugin")
             archiveClassifier.set("")
             from("LICENSE", "README.MD")
-            relocate("com.teamvery.configframework", "com.teamvery.configframeworksample.configframework")
+            relocate("com.teamvery.configframework", "com.teamvery.cfs.configframework")
         }
         enabled(false)
         manifest {

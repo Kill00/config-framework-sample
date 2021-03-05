@@ -1,4 +1,4 @@
-package com.teamvery.configframeworksample;
+package com.teamvery.cfs;
 
 import com.teamvery.configframework.cfg;
 import net.md_5.bungee.api.ChatColor;
@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-import static com.teamvery.configframeworksample.ConfigFrameworkSample.*;
+import static com.teamvery.cfs.ConfigFrameworkSample.*;
 
 public class Reload implements CommandExecutor {
 

@@ -1,6 +1,6 @@
-name: Config-Framework-Sample
-version: @version@
-main: com.teamvery.configframeworksample.ConfigFrameworkSample
+name: $pluginName
+version: $pluginVersion
+main: $pluginMain
 api-version: 1.16
 authors: [ TeamVery ]
 website: https://github.com/TeamVery/config-framework-sample
